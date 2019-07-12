@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Activity 1</title>
+
+	<style type="text/css">
+		
+		body {
+			font-family: sans-serif;
+			padding: 50px;
+		}
+
+		table {
+			border: 1px solid #ddd;
+		}
+
+		td {
+			border: 1px solid #ddd;
+			padding: 15px;
+			text-align: center;
+			height: 100px;
+			width: 200px;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<table id="table">
+		<tbody>
+			<tr>
+				<td>red</td>
+				<td>green</td>
+				<td>blue</td>
+			</tr>
+
+			<tr>
+				<td>yellow</td>
+				<td>purple</td>
+				<td>orange</td>
+			</tr>
+
+			<tr>
+				<td>pink</td>
+				<td>aqua</td>
+				<td>maroon</td>
+			</tr>
+
+			<tr>
+				<td>indigo</td>
+				<td>gold</td>
+				<td>black</td>
+			</tr>									
+		</tbody>
+		
+	</table>
+
+	<script type="text/javascript">
+	
+	// let colorList = document.getElementsByTagName("td");
+	// for (let index=0; index<colorList.length; index++) {
+
+	// 	for (let index2=colorList.length-1; index2>=0; index2--)
+
+	// 	colorList[index].addEventListener("click", function() {
+	// 		pang promt
+	// 		let input = prompt("bigay kulay")
+	// 		colorList[index].style.backgroundColor = input;
+	// 		colorList[index].style.backgroundColor = colorList[colorList.length-1-index].innerHTML; for reverse
+	// 		colorList[index].style.backgroundColor = colorList[index].innerHTML;
+
+	// 	});
+	// }
+
+		let colorList = document.getElementsByTagName("td");
+
+	for (let index=0; index<colorList.length; index++) {
+		colorList[index].addEventListener("click", function() {
+			colorList[index].style.backgroundColor = colorList[index].innerHTML;
+			colorList[index].style.color = colorList[colorList.length-1-index].innerHTML;
+		});
+	}
+
+
+
+
+
+
+
+	</script>
+
+
+</body>
+</html>

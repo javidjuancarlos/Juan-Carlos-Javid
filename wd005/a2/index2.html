@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Activity 2</title>
+
+	<style type="text/css">
+		
+		body {
+			font-family: sans-serif;
+			padding: 50px;
+		}
+
+		table {
+			border: 1px solid #ddd;
+		}
+
+		td, button {
+			border: 1px solid #ddd;
+			padding: 15px;
+			text-align: center;
+			height: 70px;
+			width: 70px;
+			font-size: 35px;
+		}
+		h1 {
+			font-size: 75px;
+			height: 186px;
+		}
+
+		#clear {
+			width: 418px;
+		}
+
+
+	</style>
+
+</head>
+<body>
+
+	<h1 id="result"></h1>
+	
+	<table id="table">
+		<tbody>
+
+			<tr>
+				<td><button class="num">7</button></td>
+				<td><button class="num">8</button></td>
+				<td><button class="num">9</button></td>
+				<td><button class="num">+</button></td>
+			</tr>
+
+			<tr>
+				<td><button class="num">4</button></td>
+				<td><button class="num">5</button></td>
+				<td><button class="num">6</button></td>
+				<td><button class="num">-</button></td>
+			</tr>
+
+			<tr>
+				<td><button class="num">1</button></td>
+				<td><button class="num">2</button></td>
+				<td><button class="num">3</button></td>
+				<td><button class="num">*</button></td>
+			</tr>
+
+			<tr>
+				<td><button class="num">.</button></td>
+				<td><button class="num">0</button></td>
+				<td><button id="equals">=</button></td>
+				<td><button class="num">/</button></td>
+			</tr>
+
+		</tbody>
+		
+	</table>
+
+	<table>
+			<tr>
+				<button id="clear">CLEAR</button>
+			</tr>
+	</table>
+
+	<script type="text/javascript">
+
+		let math = document.getElementsByClassName("num");
+
+			for (let index=0; index<math.length; index++) {
+				math[index].addEventListener("click", function(){
+					result.innerHTML += math[index].innerHTML
+				})
+			}
+
+			equals.addEventListener("click", function(){
+			result.innerHTML = eval(result.innerHTML)
+
+			function reverseString(str) {
+		    return str.split("").reverse().join("");
+			}
+
+			result.innerHTML = reverseString(result.innerHTML);	
+			})
+
+			clear.addEventListener("click", function(){
+			result.innerHTML = ""
+			})
+
+
+
+	</script>
+
+</body>
+</html>

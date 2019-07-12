@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Activity 2</title>
+
+	<style type="text/css">
+		
+		body {
+			font-family: sans-serif;
+			padding: 50px;
+		}
+
+		table {
+			border: 1px solid #ddd;
+		}
+
+		td {
+			border: 1px solid #ddd;
+			padding: 15px;
+			text-align: center;
+			height: 100px;
+			width: 200px;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<table id="table">
+		<tbody>
+
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+
+		</tbody>
+		
+	</table>
+
+	<script type="text/javascript">
+	
+	function reverseString(str) {
+    return str.split("").reverse().join("");
+	}
+
+	let colorBox = document.getElementsByTagName("td");
+
+		for (let index=0; index<colorBox.length; index++) {
+			colorBox[index].addEventListener("click", function() {
+				let input = prompt("input color")
+				colorBox[index].style.backgroundColor = input;
+				colorBox[index].innerHTML = reverseString(input);
+			});
+		}
+
+	</script>
+
+
+</body>
+</html>
