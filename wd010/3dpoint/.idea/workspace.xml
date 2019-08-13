@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09e5641a-8f45-4f29-8424-c1e897c0de1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance/inheritance.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance/src/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance/src/Point3d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_class/src/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_class/src/Professional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_class/src/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shapes/shapes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shapes/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shapes/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shapes/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shapes/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shapes/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shapes/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../author/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author/out/production/author/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/../author/out/production/author/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author/out/production/author/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../author/out/production/author/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../author/src/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../author/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_class/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_class/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_class/out/production/java_class/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_class/out/production/java_class/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_class/out/production/java_class/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_class/out/production/java_class/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_class/out/production/java_class/Pet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_class/out/production/java_class/Pet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_class/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_class/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_class/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_class/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_class/src/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_class/src/Pet.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1P7nVXh7ehwwvW7dwq9eaE9PfaP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09e5641a-8f45-4f29-8424-c1e897c0de1c" name="Default Changelist" comment="" />
+      <created>1565234026624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565234026624</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

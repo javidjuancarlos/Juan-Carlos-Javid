@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+
+</head>
+<body>
+	<div id="registerHolder">
+		<h1>Register</h1>
+		<div id="registerRow" class="row">
+			<div class="col-12 col-md-12 col-lg-6">
+				<form id="signUpForm">
+					<div id="usernameHolder" class="form-group">
+						<label for="username">Username:</label>
+						<input type="text" id="username" class="form-control" placeholder="Enter Your Username..."><br>
+						<span id="userWarning"></span>
+					</div>
+
+					<div id="passwordHolder" class="form-group">
+						<label for="password">Password:</label>
+						<input type="password" id="password" class="form-control" placeholder="Enter Your Password..."><br>
+						<span id="passwordWarning"></span>
+					</div>
+
+					<div id="confirmPwHolder" class="form-group">
+						<label for="confirmPw">Confirm Password:</label>
+						<input type="password" id="confirmPw" class="form-control" placeholder="Please confirm password..."><br>
+						<span id="confirmPwWarning"></span>
+					</div>
+
+					<button type="button" disabled id="register" class="btn btn-block">Register</button>
+					<button type="button" id="loginNow" class="btn btn-block">Login Now</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div id="loginHolder">
+		<h1>Login</h1>
+		<div id="loginRow" class="row">
+			<div class="col-12 col-md-12 col-lg-6">
+				<form id="signUpForm">
+					<div id="loginUsernameHolder" class="form-group">
+						<label for="loginUsername">Username:</label>
+						<input type="text" id="loginUsername" class="form-control" placeholder="Enter Your Username..."><br>
+						<span id="loginUserWarning"></span>
+					</div>
+
+					<div id="loginPasswordHolder" class="form-group">
+						<label for="loginPassword">Password:</label>
+						<input type="password" id="loginPassword" class="form-control" placeholder="Enter Your Password..."><br>
+						<span id="loginPasswordWarning"></span>
+					</div>
+
+					<button type="button" disabled id="login" class="btn btn-block">Login</button>
+				</form>
+			</div>
+		</div>
+	</div>
+		<script src="assets/js/register.js"></script>
+</body>
+</html>

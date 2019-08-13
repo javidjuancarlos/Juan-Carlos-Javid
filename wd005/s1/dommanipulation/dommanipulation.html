@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM Manipulation</title>
+</head>
+<body>
+	<h1 id="h1">DOM Manipulation 1</h1>
+	<h1>DOM Manipulation 2</h1>
+	<h1 class="sample">DOM Manipulation 3</h1>
+	Document Object Model
+
+	<ul id="fruits" class="sample">
+		
+	</ul>
+
+	<button id="showFruitsBtn">Show Fruits</button><br>
+	<button id="hideFruitsBtn">Hide Fruits</button>
+
+
+	<script type="text/javascript">
+	//	selectors
+		// entire HTML file is = document
+		// all elements/tags in the html is considered a javascript Object
+		// we can select elements / objects using selectors
+	
+		//getElementsById returns 1 object
+			//	console.log(document.getElementById("h1"));
+		
+		//getElementsByTagName returns HTML Collection (Array)
+			// console.log(document.getElementsByTagName("h1")[2].innerHTML = "DOM MANIPULATION 10");
+		
+		// getElementsByClassName  returns HTML Collection
+			// console.log(document.getElementsByClassName("sample"));
+
+
+		// let fruits = document.getElementsByTagName("li");	
+			// for (let index = 0; index<fruits.length; index++) {
+				// console.log(fruits[index].innerHTML)
+			// }
+
+		// console.log(document.getElementsByTagName("li")[0].innerHTML);
+		// console.log(document.getElementsByTagName("li")[1].innerHTML);
+		// console.log(document.getElementsByTagName("li")[2].innerHTML);
+		// console.log(document.getElementsByTagName("li")[3].innerHTML);
+		// console.log(document.getElementsByTagName("li")[4].innerHTML);		
+
+
+		let fruitsList = ["Apple", "Banana", "Orange", "Mango", "Bagoong"];
+
+		// for (let index=0; index<fruitsList.length; index++) {
+		// 	fruits.innerHTML += "<li>" + fruitsList[index]+ "</li>";
+		// }
+
+		// fruits.style.color = "red";
+		// fruits.style.backgroundColor = "yellow";
+		// fruits.style.border = "1px solid black";
+		// fruits.style.borderRadius = "10px";
+		// fruits.style.paddingBottom = "50px";
+		// fruits.style.paddingTop = "50px";
+		// fruits.style.textAlign = "center";
+
+
+		// console.log(showFruits)
+
+		//event listeners
+		// showFruits.addEventListener(event, command)
+				showFruitsBtn.addEventListener("click", function() {
+					fruits.innerHTML = "";
+					for (let index=0; index<fruitsList.length; index++) {
+					fruits.innerHTML += "<li>" + fruitsList[index]+ "</li>";
+				}
+				fruits.style.display = "block";
+			});
+
+				function hideFruits() {
+					fruits.style.display = "none";
+				}
+
+				hideFruitsBtn.addEventListener("click", hideFruits)
+	</script>
+</body>
+</html>
